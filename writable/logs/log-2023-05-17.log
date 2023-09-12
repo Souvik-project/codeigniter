@@ -1,0 +1,70 @@
+CRITICAL - 2023-05-17 11:30:52 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:37 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:40 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:41 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:41 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:42 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:42 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:42 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:42 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:33:45 --> Class "config\Database" not found
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\MyController.php(53): app\Models\UserModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

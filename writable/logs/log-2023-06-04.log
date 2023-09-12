@@ -1,0 +1,34 @@
+CRITICAL - 2023-06-04 15:40:38 --> Call to undefined method App\Models\UserModel::getallproducts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\MyController.php(52): CodeIgniter\Model->__call('getallproducts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 15:41:05 --> Call to undefined method App\Models\UserModel::getallproducts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\MyController.php(52): CodeIgniter\Model->__call('getallproducts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->viewproducts2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 15:43:29 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\UserModel.php(18): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\MyController.php(44): App\Models\UserModel->insertproduct([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 16:40:52 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\UserModel.php(18): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\MyController.php(44): App\Models\UserModel->insertproduct([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

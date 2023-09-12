@@ -1,0 +1,10 @@
+CRITICAL - 2023-08-03 16:43:39 --> Undefined constant "base_url"
+in APPPATH\Views\fabshopping.php on line 61.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('fabshopping', [], true)
+ 4 APPPATH\Controllers\UserController.php(9): view('fabshopping')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usercontroller->fabshopping()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-27 16:40:58 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 25.
+ 1 APPPATH\Models\UserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 25)
+ 2 APPPATH\Controllers\MyController.php(32): app\Models\UserModel->deleteuser('43')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->del('43')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

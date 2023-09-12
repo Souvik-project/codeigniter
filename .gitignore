@@ -1,0 +1,5 @@
+"vendor/"   # Exclude Composer dependencies
+"application/config/config.php"   # Exclude sensitive config files
+"application/config/database.php" 
+"vendor/" 
+"application/config/config.php" 

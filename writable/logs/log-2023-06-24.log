@@ -1,0 +1,29 @@
+CRITICAL - 2023-06-24 08:03:56 --> Undefined variable $id
+in APPPATH\Controllers\UserController.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\UserController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usercontroller->singleproduct('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 08:05:03 --> Undefined variable $product
+in APPPATH\Views\singleproduct.php on line 201.
+ 1 APPPATH\Views\singleproduct.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\singleproduct.php', 201)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\singleproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('singleproduct', [], true)
+ 5 APPPATH\Controllers\UserController.php(21): view('singleproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usercontroller->singleproduct('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 08:05:09 --> Undefined variable $product
+in APPPATH\Views\singleproduct.php on line 201.
+ 1 APPPATH\Views\singleproduct.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\singleproduct.php', 201)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\singleproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('singleproduct', [], true)
+ 5 APPPATH\Controllers\UserController.php(21): view('singleproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usercontroller->singleproduct('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

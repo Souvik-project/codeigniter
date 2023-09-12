@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-15 07:38:10 --> Call to undefined method App\Models\UserModel::getproductbyid
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\MyController.php(72): CodeIgniter\Model->__call('getproductbyid', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 07:38:51 --> Call to undefined method App\Models\UserModel::getproductbyid
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\MyController.php(72): CodeIgniter\Model->__call('getproductbyid', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MyController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
